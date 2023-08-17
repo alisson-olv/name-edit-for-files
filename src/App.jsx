@@ -93,7 +93,7 @@ function App() {
             Nome do arquivo formatado:
           </h3>
           {formatedFileName.map((item, index) => (
-            <p key={index} className="text-lg font-medium text-gray-900 mb-2">
+            <p key={index} className="text-lg font-normal text-gray-900 mb-2">
               {item}
             </p>
           ))}
