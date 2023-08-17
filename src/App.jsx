@@ -67,7 +67,7 @@ function App() {
               htmlFor="have-sulfix"
               className="text-sm font-medium text-gray-900"
             >
-              Possui sulfixo?
+              Possui sufixo?
             </label>
           </div>
         </div>
