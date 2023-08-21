@@ -12,10 +12,9 @@ function App() {
   const handleChangeNameFile = (e) => {
     e.preventDefault();
 
-
     const fileNameItem = fileName.replaceAll(" ", "-").replaceAll("_", "-").toLowerCase() + '-agosto-23'
 
-    if (!fileName.length == 0) {
+    if (fileName.length > 0) {
       setFormatedFileName([...formatedFileName, fileNameItem])
     } else {
       // TODO: fazer condição se o campo não estiver preenchido
@@ -87,7 +86,7 @@ function App() {
           </button>
         </div>
       </form>
-      {formatedFileName &&
+      {formatedFileName.length > 0 &&
         <div className="mt-10">
           <h3 className="text-xl font-medium text-gray-900 mb-4">
             Nome do arquivo formatado:
