@@ -44,7 +44,7 @@ function App() {
           htmlFor="file-name"
           className="text-xl font-medium text-gray-900"
         >
-          Nome do arquivo GABRIEL
+          Nome do arquivo
         </label>
         <div className="flex gap-8">
           <input
